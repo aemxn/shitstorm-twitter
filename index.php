@@ -17,12 +17,11 @@ $twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_
  * count: The number of tweets to return per page, up to a maximum of 100. Defaults to 15.
  */
 $keywords = array(
+	// General keywords
 	'astronomy',
 	'science',
 	'virtual reality',
 	'augmented reality',
-	'telescope',
-	'stargazing',
 	'artificial intelligence',
 	'electronics',
 	'psychology',
@@ -37,11 +36,18 @@ $keywords = array(
 	'cryptography',
 	'arduino',
 	'raspberry pi',
-	'"an app for"',
-	'"an app that"',
 	'"random thoughts"',
-	'[SMT]',
-	'/r/youshouldknow'
+	'hackernews',
+	// Subreddit
+	'/r/somebodymakethis',
+	'/r/youshouldknow',
+	'/r/ethereum',
+	'/r/bitcoin',
+	'/r/ethtrader',
+	'/r/androiddev',
+	// Market analysis (cryptocurrency)
+	'#ethusd',
+	'$btc'
 );
 $rand_key = array_rand($keywords, 1);
 $search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key], 'count' => 1));
