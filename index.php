@@ -36,7 +36,8 @@ $keywords = array(
 	'cryptography',
 	'arduino',
 	'raspberry pi',
-	'"random thoughts"',
+	'kotlin',
+	'java',
 	'hackernews',
 	// Subreddit
 	'/r/somebodymakethis',
@@ -45,6 +46,7 @@ $keywords = array(
 	'/r/bitcoin',
 	'/r/ethtrader',
 	'/r/androiddev',
+	'/r/kotlin',
 	// Market analysis (cryptocurrency)
 	'#ethusd',
 	'$btc'
