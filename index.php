@@ -20,18 +20,17 @@ $keywords = array(
 	// General keywords
 	'astronomy',
 	'science',
+	'space',
 	'virtual reality',
 	'augmented reality',
 	'artificial intelligence',
 	'electronics',
-	'psychology',
 	'decentralized',
 	'ethereum',
 	'bitcoin',
 	'blockchain',
 	'diy',
 	'programming',
-	'existentialism',
 	'androiddev',
 	'cryptography',
 	'arduino',
@@ -39,6 +38,10 @@ $keywords = array(
 	'kotlin',
 	'java',
 	'hackernews',
+	'react native',
+	'rxjava',
+	'rxandroid',
+	'ionic',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
@@ -47,6 +50,8 @@ $keywords = array(
 	'/r/ethtrader',
 	'/r/androiddev',
 	'/r/kotlin',
+	'/r/reactnative',
+	'/r/webdev'
 	// Market analysis (cryptocurrency)
 	'#ethusd',
 	'$btc'
