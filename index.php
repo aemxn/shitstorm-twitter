@@ -41,6 +41,7 @@ $keywords = array(
 	'react native',
 	'rxjava',
 	'rxandroid',
+	'sunvox',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
