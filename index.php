@@ -56,7 +56,9 @@ $keywords = array(
 	'/r/webdev',
 	// Market analysis (cryptocurrency)
 	'#ethusd',
-	'$btc'
+	'$btc',
+	// User
+	'@cryptocoinradar'
 );
 $rand_key = array_rand($keywords, 1);
 $search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key], 'count' => 1));
