@@ -42,8 +42,6 @@ $keywords = array(
 	'rxjava',
 	'rxandroid',
 	'sunvox',
-	'filmisnotdead',
-	'filmphotography',
 	'spacex',
 	'independence-x',
 	// Subreddit
