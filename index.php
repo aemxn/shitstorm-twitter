@@ -44,6 +44,8 @@ $keywords = array(
 	'sunvox',
 	'filmisnotdead',
 	'filmphotography',
+	'spacex',
+	'independence-x',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
