@@ -58,7 +58,8 @@ $keywords = array(
 	'#ethusd',
 	'$btc',
 	// User
-	'@cryptocoinradar'
+	'@cryptocoinradar',
+	'@make'
 );
 $rand_key = array_rand($keywords, 1);
 $search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key], 'count' => 1));
