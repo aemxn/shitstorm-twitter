@@ -44,6 +44,7 @@ $keywords = array(
 	'sunvox',
 	'spacex',
 	'independence-x',
+	'nem',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
