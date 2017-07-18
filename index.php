@@ -44,7 +44,6 @@ $keywords = array(
 	'sunvox',
 	'spacex',
 	'independence-x',
-	'nem',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
@@ -55,6 +54,7 @@ $keywords = array(
 	'/r/kotlin',
 	'/r/reactnative',
 	'/r/webdev',
+	'/r/nem',
 	// Market analysis (cryptocurrency)
 	'#ethusd',
 	'$btc',
