@@ -54,7 +54,6 @@ $keywords = array(
 	'/r/kotlin',
 	'/r/reactnative',
 	'/r/webdev',
-	'/r/nem',
 	// Market analysis (cryptocurrency)
 	'#ethusd',
 	'$btc',
