@@ -19,18 +19,12 @@ $twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_
 $keywords = array(
 	// General keywords
 	'astronomy',
-	'science',
-	'space',
-	'virtual reality',
-	'augmented reality',
 	'artificial intelligence',
 	'electronics',
-	'decentralized',
 	'ethereum',
 	'bitcoin',
 	'blockchain',
 	'diy',
-	'programming',
 	'androiddev',
 	'cryptography',
 	'arduino',
@@ -41,9 +35,7 @@ $keywords = array(
 	'react native',
 	'rxjava',
 	'rxandroid',
-	'sunvox',
 	'spacex',
-	'independence-x',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
@@ -53,13 +45,7 @@ $keywords = array(
 	'/r/androiddev',
 	'/r/kotlin',
 	'/r/reactnative',
-	'/r/webdev',
-	// Market analysis (cryptocurrency)
-	'#ethusd',
-	'$btc',
-	// User
-	'@cryptocoinradar',
-	'@make'
+	'/r/webdev'
 );
 $rand_key = array_rand($keywords, 1);
 $search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key] . '+filter:safe', 'count' => 1));
