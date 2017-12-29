@@ -48,7 +48,7 @@ $keywords = array(
 	'/r/webdev'
 );
 $rand_key = array_rand($keywords, 1);
-$search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key] . '+filter:safe', 'count' => 1));
+$search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key] . '+filter:safe', 'count' => 1, 'lang' => 'en'));
 
 foreach($search->statuses as $tweet) {
 	/**
