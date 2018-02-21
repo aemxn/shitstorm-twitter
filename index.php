@@ -26,6 +26,7 @@ $keywords = array(
 	'rxjava',
 	'rxandroid',
 	'spacex',
+	'cypherpunk',
 	// Subreddit
 	'/r/somebodymakethis',
 	'/r/youshouldknow',
@@ -35,9 +36,7 @@ $keywords = array(
 	'/r/androiddev',
 	'/r/kotlin',
 	'/r/reactnative',
-	'/r/webdev',
-	// handle
-	'@archillect'
+	'/r/webdev'
 );
 $rand_key = array_rand($keywords, 1);
 $search = $twitter->get('search/tweets', array('q' => $keywords[$rand_key] . '+filter:safe', 'count' => 1, 'lang' => 'en'));
