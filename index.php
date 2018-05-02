@@ -14,6 +14,7 @@ $keywords = array(
 	'ethereum',
 	'bitcoin',
 	'blockchain',
+	'holochain',
 	'diy',
 	'androiddev',
 	'cryptography',
